@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap'); 
+body {
+
+    background-color: #282c34;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 40px;
+}
+
+.corner-border {
+    padding: 10px 20px;
+    color: #8fda25;
+    transition: all .2s ease-in-out;
+    cursor: pointer;
+    background: 
+        linear-gradient(to right, #8FDA25 2px, transparent 2px) 0 0,
+        linear-gradient(to right, #8FDA25 2px, transparent 2px) 0 100%,
+        linear-gradient(to left, #8FDA25 2px, transparent 2px) 100% 0,
+        linear-gradient(to left, #8FDA25 2px, transparent 2px) 100% 100%,
+        linear-gradient(to bottom, #8FDA25 2px, transparent 2px) 0 0,
+        linear-gradient(to bottom, #8FDA25 2px, transparent 2px) 100% 0,
+        linear-gradient(to top, #8FDA25 2px, transparent 2px) 0 100%,
+        linear-gradient(to top, #8FDA25 2px, transparent 2px) 100% 100%;
+        background-repeat: no-repeat;
+        background-size: 15px 15px;
+}
+
+.corner-border:hover {
+    padding: 20px 10px;
+}

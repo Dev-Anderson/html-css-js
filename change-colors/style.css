@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: #dddddd;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.red {
+    background: red;
+}
+.green {
+    background: green;
+}
+.blue {
+    background: blue;
+}
+
+.center-box {
+    min-width: 70vh;
+    height: 400px;
+    background: #ffffff;
+    border-radius: 8px;
+    transition: 0.2s ease-in-out all;
+}
+.color-switcher {
+    position: absolute;
+    top: 35vh;
+    bottom: 0;
+    right: 0;
+    transform: translateY(-42%);
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.color {
+    width: 30px;
+    height: 30px;
+    border-radius: 20%;
+    margin-bottom: 20px;
+}
+.color:hover {
+    cursor: pointer;
+}
+.color:last-child {
+    margin-bottom: 0;
+}

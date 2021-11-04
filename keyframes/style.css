@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+div {
+    width: 100px;
+    height: 100px;
+    background: red;
+    position: relative;
+    animation: mymove 5s infinite;
+}
+@keyframes mymove {
+    0% {
+       top: 0px;
+        background: red; 
+        width: 100px;
+    }
+    100% {
+        top: 200px; 
+        background: yellow; 
+        width: 300px; 
+    }
+}
