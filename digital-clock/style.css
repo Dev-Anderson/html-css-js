@@ -1,0 +1,25 @@
+.clock-container {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    border-radius: 10px;
+}
+.clock {
+   background-color: #000;
+   color: #fff;
+   display: inline-block;
+   padding: 20px;
+   box-shadow:  0 0 20px rgba(0, 255, 255, 0.5),
+                0 0 30px rgba(0, 255, 255, 0.3),
+                0 0 40px rgba(0, 255, 255, 0.2),
+                0 0 50px rgba(0, 255, 255, 0.1);   
+}
+
+#date {
+    font-size: 20px;
+}
+
+#time {
+    font-size: 40px;
+    margin-top: 10px;
+}
